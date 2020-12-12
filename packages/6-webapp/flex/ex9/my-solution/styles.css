@@ -1,0 +1,40 @@
+.wrapper {
+  display: flex;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.nav {
+  display: flex;
+}
+
+.section {
+  display: flex;
+  flex: 1;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.empty-box {
+  border: none;
+}
